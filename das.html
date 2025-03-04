@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="das.css">
+  <script src="https://kit.fontawesome.com/66b1ec100a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="dishGrid">
+    <header>
+      <h1>ApicStudio</h1>
+      <nav>
+        <h2>Dashboard</h2>
+        <p> <i class="fa-solid fa-image"></i> <span>mr aadi</span> <i class="fa-solid fa-angle-down"></i></p>
+      </nav>
+    </header>
+  </div>
+  <div class="container">
+    <aside class="sidebar">
+      <ul class="sidebar-menu">
+        <li class="active"><a href="#"><i class="fa-solid fa-gauge"></i>Dashboard</a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i>Profile</a></li>
+        <li><a href="addmember.html"><i class="fa-solid fa-book"></i>Library</a></li>
+        <li><a href="addbook.html"><i class="fa-solid fa-paper-plane"></i>Book Requests</a></li>
+        <li><a href="#"><i class="fa-solid fa-bell"></i>Notifications</a></li>
+        <li><a href="bookdet.html"><i class="fa-solid fa-users"></i>User Management</a></li>
+        <li><a href="#"><i class="fa-solid fa-gear"></i>Setting</a></li>
+        <li><a href="#"><i class="fa-solid fa-database"></i>Database Backup</a></li>
+      </ul>
+    </aside>
+    <div class="dshboard-card">
+      <div class="boxes">
+        <div class="box1">
+           <h1><i class="fa-solid fa-users"></i></h1>
+          <h3>0</h3><br>
+          <a href="addmember.html"><h1>Total Member</h1></a><br>
+        </div>
+        <div class="box2">
+           <h1><i class="fa-solid fa-book-open-reader"></i></h1>
+          <h3>0</h3><br>
+          <a href="addbook.html"><h1>Total Book</h1></a><br>
+        </div>
+        <div class="box3">
+          <h1><i class="fa-solid fa-clock"></i></h1>
+          <h3>0</h3><br>
+          <a href="issue.html"><h1>Issue Books</h1></a><br>
+        </div>
+        <div class="box4">
+          <h1><i class="fa-solid fa-rotate-left"></i></h1>
+          <h3>0</h3><br>
+          <a href="bookdet.html"><h1>Return Books</h1><br></a>
+        </div>
+      </div>
+         
+      <div class="container1">
+      <div class="main">
+    <div class="adi">
+      <h2>Recent Circulation</h2>
+      <button><i class="fa-solid fa-plus"></i>Add issue</button>
+      
+    </div>
+    <div class="showbox">
+       <div class="Show">
+        <label for="Show">Show</label>
+        <input type="number" value="20" pattern="[0-9]{2}"  name="" id="" placeholder="Enter">
+        <label for="entries">entries</label>
+       </div>
+       <div class="swo">
+        <label for="srch">Search</label>
+        <input type="text">
+       </div>
+      </div>
+      
+
+            <table border="1">
+        
+          <thead>
+            <tr>
+              <th>Member ID</th>
+              <th>Book ID</th>
+              <th>Issue Date</th>
+              <th>Due Date</th>
+              <th>Return Date</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <td>12345</td>
+              <td>9977</td>
+              <td>2024/09/05</td>
+              <td>2024/09/15</td>
+              <td>2024/10/05</td>
+              <td>Active</td>
+              <td>Action</td>
+            </tr>
+          </thead> 
+          <thead>
+            <tr>
+              <td>0987</td>
+              <td>6644</td>
+              <td>2024/05/22</td>
+              <td>2024/08/29</td>
+              <td>2024/12/25</td>
+              <td>Active</td>
+              <td>Action</td>
+            </tr>
+          </thead> 
+          <!-- <tbody>
+            <tr>
+              <td colspan="7"> No Data Available in aTable</td>
+            </tr>
+          </tbody> -->
+        </table>
+      
+      
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+
+    <footer>@Dashboard</footer>
+</body>
+
+</html>

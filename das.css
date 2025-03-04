@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* .container header h1{
+    width: 350px;
+    background-color:lightblue;
+    padding: 10px 10px;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+} */
+
+.sidebar{
+    height: 755px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: lightslategray;
+}
+
+.sidebar a{
+    padding: 30px;
+    text-align: center;
+
+}
+
+.sidebar-menu i{
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.active{
+    background-color: lightsteelblue;
+    font-size: 30px;
+    color:black ;
+}
+
+.active a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.active i{
+    color: white;
+    padding-top: 1;
+}
+
+ul a{
+    margin: 30px;
+    color: black;
+    height: 200px;
+    width: 100px;
+    
+}
+.sidebar-menu li:hover{
+    background-color: blue;
+} 
+
+
+ ul li a:hover{
+     color: white;
+ }
+ ul li :hover{
+    color: white;
+
+ }
+ .box{
+    color: red;
+    font-size: 12px;
+    font-weight: lighter;
+    opacity: 80%;
+    border: #0159e8;
+    
+
+ }
+ header{
+    display: flex;
+ }
+ nav{
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+
+ }
+ nav h2{
+    text-align: center;
+    float: inline-end;
+ }
+ header {
+    margin: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    background: linear-gradient(to right, #0159e8, lightblue, orange);
+ }
+ nav{
+    display: flex;
+    align-items: center;
+} 
+nav p{
+    margin-left: 700px;
+    color:black;
+}
+nav i{
+    padding: 8px;
+    color:black;
+}
+ header h2{
+    margin: 0;
+    margin-left: 100px;
+    font-size: 35px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ .dishGrid h1{
+    display: flex;
+    width: 350px;
+    background-color: white;
+    padding: 13px 10px;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+
+
+} 
+.box1{
+    border-radius: 10px;
+padding: 30px;
+text-align: center;
+margin: 30px;
+color: white;
+background: linear-gradient( pink, blue);
+border-top:20px ;
+
+}
+.container{
+    display: flex;
+}
+.boxes{
+    display: flex;
+}
+.box2{
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 30px;
+    color: white;
+    background: linear-gradient(green, lightgreen);
+    border-top:20px ;
+    }
+    .box3{
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        margin: 30px;
+        color: white;
+        background: linear-gradient( orangered, orange);
+        border-top:20px ;
+        } .box4{
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            margin: 30px;
+            color: white;
+            background: linear-gradient( lightgreen, green);
+             border-top:20px ;
+}
+.Member h2{
+    padding:5px;
+    margin-bottom: 15px;
+}
+table{
+     
+    height: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+
+}
+
+   tbody tr td{
+    text-align: center;
+    height: 100px;
+    margin: 10px;
+} 
+ .Member{
+    background-color: white;
+    height: 400px;
+    
+ }
+ .adi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 70px;
+    background-color: lightblue;   
+}
+
+button{
+    background-color: green;
+    size: 10px;
+    height: 30px;
+    width: 90px;
+    margin: 20px;
+}
+.container1{
+margin: 200xp;
+padding: 20px;
+width: 98%;
+float: 20px;
+border: 2px solid black;
+height: 380px;
+border-radius: 5px;
+/* clear: both; */
+background-color: whitesmoke;
+}
+.adi h2{
+    margin: 20px;
+}
+
+
+.showbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+table tr  :hover{
+    background-color: aqua;
+}
+table tr th :hover{
+    background-color: green;
+}
+.sidebar ul li{
+    border: 1px solid #ddd;
+}
+
+footer{
+    background-color: #ff5722;
+    text-align: center;
+    color: white;
+}
